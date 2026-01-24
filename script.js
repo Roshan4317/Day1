@@ -98,7 +98,7 @@
 
 // console.log(result)
 
-// let num = 10;
+// let num = 15;
 
 // let result = 0;
 
@@ -159,14 +159,69 @@
 
 // Print the sum all odd Numbers upto n
 
-const num = 10;
+// const num = 10;
 
-let result = 0;
+// let result = 0;
 
-for (let i = 0; i <= num; i++) {
-  if (i % 2 === 1) {
-    result += i;
+// for (let i = 0; i <= num; i++) {
+//   if (i % 2 === 1) {
+//     result += i;
+//   }
+// }
+
+// console.log(result);
+
+// const num = 14;
+
+// let result = 0;
+
+// for (let i = 1; i <= num; i += 2) {
+//   result += i;
+// }
+
+// console.log(result);
+
+// const num = 10;
+
+// let result = num/2*(num/2)
+
+// console.log(result);
+
+// const num = 11;
+
+// let k = Math.ceil(11 / 2);
+
+// const result = k * k;
+// console.log(result);
+
+//*****************************************
+
+// Print the cubes number from 1 to N
+
+// let num = 10;
+
+// for (let i = 1; i <= num; i++) {
+//   // console.log(i*i*i);
+//   // console.log(i**3);
+//   console.log(Math.pow(i, 3));
+// }
+
+// let num = 10;
+
+// for (let i = num; i >= 1; i--) {
+//   // console.log(i*i*i);
+//   // console.log(i**3);
+//   console.log(Math.pow(i, 3));
+// }
+
+//*****************************************
+
+// Print only the numbers that are both even and perfect Square
+
+let num = 100;
+
+for (let i = 1; i <= num; i++) {
+  if (i % 2 === 0 && Math.sqrt(i) % 2 === 0) {
+    console.log(i);
   }
 }
-
-console.log(result);
