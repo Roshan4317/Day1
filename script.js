@@ -218,10 +218,10 @@
 
 // Print only the numbers that are both even and perfect Square
 
-let num = 100;
+// let num = 100;
 
-for (let i = 1; i <= num; i++) {
-  if (i % 2 === 0 && Math.sqrt(i) % 2 === 0) {
-    console.log(i);
-  }
-}
+// for (let i = 1; i <= num; i++) {
+//   if (i % 2 === 0 && Math.sqrt(i) % 2 === 0) {
+//     console.log(i);
+//   }
+// }
